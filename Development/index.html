@@ -455,5 +455,25 @@
 
 		<!-- main custom js file  -->
 		<script src="./assets/js/custom.js"></script>
+
+		<script type="module">
+			// Import the functions you need from the SDKs you need
+			import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.1/firebase-app.js";
+			// TODO: Add SDKs for Firebase products that you want to use
+			// https://firebase.google.com/docs/web/setup#available-libraries
+		  
+			// Your web app's Firebase configuration
+			const firebaseConfig = {
+			  apiKey: "AIzaSyCg1RErxJ4N5mmQzYAJ-5wJVOV5hxoGNUU",
+			  authDomain: "foste-809bd.firebaseapp.com",
+			  projectId: "foste-809bd",
+			  storageBucket: "foste-809bd.appspot.com",
+			  messagingSenderId: "265847513756",
+			  appId: "1:265847513756:web:bfac4650b3bca17befc359"
+			};
+		  
+			// Initialize Firebase
+			const app = initializeApp(firebaseConfig);
+		  </script>
 	</body>
 </html>
